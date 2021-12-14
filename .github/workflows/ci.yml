@@ -5,5 +5,7 @@ jobs:
     name:  Primera tarea
     runs-on:  ubuntu-latest
     steps:
-      - name:  Primer Paso
-        run:  echo "Hola"
+      - name:  Descargar
+        uses: actions/checkout@v2
+      - name:  Listado
+        run:  ls
